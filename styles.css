@@ -132,7 +132,7 @@ h3 {
 
 iframe {
   display: block;
-  margin: 60px auto;
+  margin: 90px auto 0;
 }
 
 .video-main {
@@ -144,6 +144,13 @@ iframe {
 
 .video-home {
   display: block;
+  margin-bottom: 140px;
+}
+
+.project-name {
+  right: 32% !important;
+  font-size: small;
+  position: absolute;
 }
 
 /*Links Style*/
@@ -212,14 +219,23 @@ footer {
 
   h1 {
     font-size: 11vw !important;
-    margin-top: 20px;
+    margin-top: 90px;
   }
 
   p {
     margin-bottom: 20px;
+    font-size: medium;
   }
 
   .page-head {
     padding-top: 50px;
+  }
+
+  .project-name {
+    right: 10% !important;
+  }
+
+  .video-home {
+    margin-bottom: 100px;
   }
 }
