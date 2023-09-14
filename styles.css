@@ -136,10 +136,10 @@ iframe {
 }
 
 .video-main {
-  max-width: 560px;
-  max-height: 315px;
-  width: 80vw;
-  height: calc(80vw / 1.77);
+  max-width: 760px;
+  max-height: 515px;
+  width: 100vw;
+  height: calc(100vw / 1.77);
 }
 
 .video-home {
@@ -151,6 +151,7 @@ iframe {
   right: 32% !important;
   font-size: small;
   position: absolute;
+  color: #00c3d1;
 }
 
 /*Links Style*/
@@ -237,5 +238,11 @@ footer {
 
   .video-home {
     margin-bottom: 100px;
+  }
+  .video-main {
+    max-width: 560px;
+    max-height: 315px;
+    width: 90vw;
+    height: calc(90vw / 1.77);
   }
 }
