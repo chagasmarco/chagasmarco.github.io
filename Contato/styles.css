@@ -18,6 +18,10 @@
   margin-top: 140px;
 }
 
+.mini-contact-image {
+  display: none;
+}
+
 .email-btn,
 .ig-btn {
   color: var(--black) !important;
@@ -42,6 +46,12 @@
 
 /* APP */
 @media (max-width: 767px) {
+  .mini-contact-image {
+    display: block;
+    width: 80vw;
+    border-radius: 5px;
+    margin: 70px auto 0;
+  }
   .contact-image {
     display: none;
     margin: 0;
@@ -49,5 +59,8 @@
   .contact-section {
     width: 30vw;
     margin: auto;
+  }
+  .form-header {
+    padding-top: 200px;
   }
 }
